@@ -47,7 +47,7 @@ def equal():
 
 
 
-
+#buttons
 
 btn_0=Button(root,text='0',padx=36,pady=10,font=('Arial',14),command=lambda: btn_click('0',))
 btn_1=Button(root,text='1',padx=36,pady=10,font=('Arial',14),command=lambda: btn_click('1'))
@@ -93,6 +93,7 @@ db.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 
 
 root.mainloop()
+
 
 
 
